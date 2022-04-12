@@ -49,7 +49,7 @@
     },
     "notification.dismiss": {
         "en": "[ Press any key ]",
-        "ja": "[  何かのキーを押してください。]",
+        "ja": "[ TODO好きなキーを押してください。]",
         "zh": "[ 按任意键 ]",
         "en-tts": "Press any key"
     }

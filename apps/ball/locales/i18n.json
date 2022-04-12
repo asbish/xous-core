@@ -25,7 +25,7 @@
     },
     "ballapp.tilt": {
         "en": "Tilt",
-        "ja": "傾ける",
+        "ja": "傾き",
         "zh": "加速度计倾斜",
         "en-tts": "Tilt"
     }

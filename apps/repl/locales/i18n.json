@@ -7,13 +7,13 @@
     },
     "replapp.audio.start": {
         "en": "tone started...",
-        "ja": "トーン開始…",
+        "ja": "トーン開始...",
         "zh": "哔声开始...",
         "en-tts": "tone started..."
     },
     "replapp.audio.help": {
         "en": "audio [tone [freq [duration]]]",
-        "ja": "オーディオ [ トーン [ 周波数 [ 間隔 ]]]",
+        "ja": "audio [トーン [周波数 [間隔]]]",
         "zh": "audio [tone [音频 [时长]]]",
         "en-tts": "audio tone, then optional frequency plus optional duration."
     },

@@ -25,37 +25,37 @@
     },
     "pddb.badpass": {
         "en": "Incorrect password.\n\nTry again?\n",
-        "ja": "パスワードを認証失敗でした。\n\nもう一度実行しませんか。\n",
+        "ja": "パスワードが間違っています。\n\nもう一度実行しますか？\n",
         "zh": "密码错误。 再试一次？",
         "en-tts": "Incorrect password. Try again?"
     },
     "pddb.checkpass": {
         "en": "Press any key, then re-enter your password for setup confirmation.",
-        "ja": "任意キーを押して、パスワードを再入力してセットアップを確認してください。",
+        "ja": "任意のキーを押して、パスワードを再入力しセットアップを確認してください。",
         "zh": "第一次使用，再次输入密码",
         "en-tts": "First-time setup: Enter password again."
     },
     "pddb.checkpass_fail": {
         "en": "Password mismatch!\n\nPlease try again.",
-        "ja": "パスワード一致していません!\n\nもう一度実行しください。",
+        "ja": "パスワードが一致していません!\n\nもう一度実行しください。",
         "zh": "密码不匹配，请重试.",
         "en-tts": "Password mismatch! Please try again."
     },
     "pddb.badpass_infallible": {
         "en": "Incorrect password.\n\nPlease try again.",
-        "ja": "パスワードを認証失敗でした。\n\nもう一度実行しください。",
+        "ja": "パスワードの認証が失敗しました。\n\nもう一度実行しください。",
         "zh": "密码错误。",
         "en-tts": "Incorrect password. Please try again."
     },
     "pddb.requestformat": {
         "en": "The PDDB storage needs formatting. This takes about 15 minutes and can't be interrupted.\n\nProceed?",
-        "ja": "PDDBストレージのフォーマットが必要です。これは約15分かかり、中断することはできません。\n\n続行しますか？",
+        "ja": "PDDBストレージのフォーマットが必要です。これは約15分かかり中断することはできません。\n\n続行しますか？",
         "zh": "存储需要格式化。这需要15分钟。继续？",
         "en-tts": "The PDDB storage needs formatting. It will take about 15 minutes and can't be interrupted. Proceed?"
     },
     "pddb.devbypass": {
         "en": "Are you testing the PDDB?",
-        "ja": "PDDBをテストしているのか？",
+        "ja": "PDDBをテストしていますか？",
         "zh": "你在测试存储吗？",
         "en-tts": "Are you testing the PDDB?"
     },
@@ -103,25 +103,25 @@
     },
     "pddb.basisname": {
         "en": "Basis Name:",
-        "ja": "Basis名",
+        "ja": "ベース名",
         "zh": "基础名称",
         "en-tts": "Enter name of Basis"
     },
     "pddb.password": {
         "en": "Enter Basis password",
-        "ja": "Basis パスワード",
+        "ja": "ベースパスワード",
         "zh": "基础密码",
         "en-tts": "Enter password for Basis"
     },
     "pddb.password_for": {
         "en": "For basis: ",
-        "ja": "Basis 名前: ",
+        "ja": "ベース用TODO: ",
         "zh": "基础姓名: ",
         "en-tts": "For basis: "
     },
     "pddb.menu.listbasis": {
         "en": "List unlocked bases",
-        "ja": "ロック解除されたベースをー覧表します",
+        "ja": "ロック解除されたベースのー覧を表示",
         "zh": "基础列表",
         "en-tts": "List unlocked bases"
     },

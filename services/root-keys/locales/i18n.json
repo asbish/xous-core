@@ -49,7 +49,7 @@
     },
     "rootkeys.init.signing_kernel": {
         "en": "Signing kernel. This takes a few minutes. Do not reset or sleep!",
-        "ja": "カーネルへを署名中です。これには数分かかります。リセットやスリープはしないでください。",
+        "ja": "カーネルへ署名中です。これには数分かかります。リセットやスリープはしないでください。",
         "zh": "签名内核 可能还要等一下 不要重置或睡眠! ",
         "en-tts": "Signing kernel. This may take a while, don't reset or sleep the device."
     },
@@ -61,7 +61,7 @@
     },
     "rootkeys.init.patching_keys": {
         "en": "Injecting new keys. This takes a few minutes. Do not reset or sleep!",
-        "ja": "新しいキーを挿入中です。これには数分かかります。リセットやスリープはしないでください。",
+        "ja": "新しいキーを挿入(TODO)中です。これには数分かかります。リセットやスリープはしないでください。",
         "zh": "更换新钥匙 可能还要等一下 不要重置或睡眠! ",
         "en-tts": "Injecting new keys. This may take a while, don't reset or sleep the device."
     },
@@ -79,7 +79,7 @@
     },
     "rootkeys.init.unplug_power": {
         "en": "Please unplug the charging cable so I can reboot!  ",
-        "ja": "再起動できるように、充電ケーブルを抜いてください。",
+        "ja": "再起動できるように充電ケーブルを抜いてください。",
         "zh": "拔下充电线以允许重启!",
         "en-tts": "Unplug the charging cable so I can reboot!"
     },
@@ -91,13 +91,13 @@
     },
     "rootkeys.init.fail_verify": {
         "en": "Verification failed, aborting!",
-        "ja": "検証に失敗し、中止します!",
+        "ja": "検証に失敗、中止します!",
         "zh": "*missing*正在初始化失败，中止!",
         "en-tts": "Verification failed, aborting"
     },
     "rootkeys.init.fail_key": {
         "en": "FPGA key is wrong: Perhaps the update password was entered incorrectly?",
-        "ja": "FPGAキーが間違っています: 更新パスワードが間違って入力された可能性がありますか？",
+        "ja": "FPGAキーが間違っています。更新パスワードを間違えて入力した可能性はありますか？",
         "zh": "*missing*正在初始化失败，中止します!",
         "en-tts": "FPGA key is wrong, perhaps the update password was entered incorrectly?"
     },
@@ -115,7 +115,7 @@
     },
     "rootkeys.init.confirmation": {
         "en": "This cannot be undone. Continue?",
-        "ja": "これは元に戻せません。続けますか？",
+        "ja": "元に戻せないですTODO。続けますか？",
         "zh": "这无法撤消，要继续吗?",
         "en-tts": "This cannot be undone. Continue?"
     },
@@ -133,19 +133,19 @@
     },
     "rootkeys.gwup.viewinfo_ss": {
         "en": "Self-signed image found. Review details?",
-        "ja": "自己署名画像が見つかりました。 詳細を確認しますか？",
+        "ja": "自己署名イメージが見つかりました。詳細を確認しますか？",
         "zh": "**missing**查看更新的详细信息?",
         "en-tts": "Self-signed image found. Review details?"
     },
     "rootkeys.gwup.viewinfo_tp": {
         "en": "Third party image found. Review details?",
-        "ja": "サードパーティの画像が見つかりました。 詳細を確認しますか？",
+        "ja": "サードパーティのイメージが見つかりました。詳細を確認しますか？",
         "zh": "**missing**查看更新的详细信息?",
         "en-tts": "Self-signed image found. Review details?"
     },
     "rootkeys.gwup.viewinfo_dk": {
         "en": "Devkey image found. Review details?",
-        "ja": "Devkeyの画像が見つかりました。 詳細を確認しますか？",
+        "ja": "Devkeyのイメージが見つかりました。詳細を確認しますか？",
         "zh": "**missing**查看更新的详细信息?",
         "en-tts": "Self-signed image found. Review details?"
     },
@@ -193,13 +193,13 @@
     },
     "rootkeys.get_update_password": {
         "en": "⚠ Critical password request ⚠\nEnter the 'SYSTEM UPDATE' passphrase. This authorizes a system update.",
-        "ja": "重要なパスワード要求\nSYSTEM UPDATEのパスフレーズを入力してください。これでシステムアップデートが許可されます。",
+        "ja": "重要なパスワード要求\nSYSTEM UPDATEのパスフレーズを入力してください。これでシステムアップデートを許可します。",
         "zh": "输入密码 软件更新 安全含义:至关重要 ",
         "en-tts": "Enter update password, in order to authorize a gateware update."
     },
     "rootkeys.gwup.finished": {
         "en": "Gateware update finished.\nReboot at your earliest convenience.",
-        "ja": "ゲートウェアアップデートが終了しました。ご都合の良い時に再起動してください。",
+        "ja": "ゲートウェアアップデートが終了しました。都合の良い時に再起動してください。",
         "zh": "更新完成重启应用",
         "en-tts": "Gateware update finished. Reboot at your earliest convenience."
     },
@@ -211,19 +211,19 @@
     },
     "rootkeys.bbram.finished": {
         "en": "BBRAM helper should have rebooted the device. There was a problem with the procedure!",
-        "ja": "BBRAMヘルパーはデバイスをリブートしたはずです。手順に問題がありました!",
+        "ja": "BBRAMヘルパーはデバイスをリブートできませんでした。手順に問題がありました!",
         "zh": "**missing**",
         "en-tts": "BBRAM helper should have rebooted the device, you should not get this message!"
     },
     "rootkeys.bbram.failed_restore": {
         "en": "Something went wrong. Restoring from backup... ",
-        "ja": "何かがうまくいきませんでした。 バックアップからの復元中です...",
+        "ja": "正しく処理されませんでした。バックアップから復元中です...",
         "zh": "出了点问题，从备份中恢复...",
         "en-tts": "Something went wrong, restoring from backup."
     },
     "rootkeys.console_input": {
         "en": "Communicating with helper... Press enter to abort.",
-        "ja": "ヘルパーと通信しています... Enterキーを押して中止します。",
+        "ja": "ヘルパーと通信しています... 中止するにはEnterキーを押してください。",
         "zh": "与助手通信，按 Enter 中止",
         "en-tts": "Communicating with helper. Press enter to abort."
     },
@@ -235,19 +235,19 @@
     },
     "rootkeys.get_signing_password": {
         "en": "⚠ Critical password request ⚠\nEnter the 'SYSTEM UPDATE' passphrase.\n\nThis will digitally sign your system firmware.",
-        "ja": "重要なパスワード要求\nSYSTEM UPDATEのパスフレーズを入力してください。\n\nこれにより、システムのファームウェアに電子署名が施されます。",
+        "ja": "重要なパスワード要求\nSYSTEM UPDATEのパスフレーズを入力してください。\n\nこれにより、システムのファームウェアに電子署名が施されます。(TODO)",
         "zh": "输入密码 软件更新 安全含义:至关重要 ",
         "en-tts": "Enter update password, in order to authorize a gateware update."
     },
     "rootkeys.signxous.finished": {
         "en": "Xous signing finished.\nReboot at your earliest convenience.",
-        "ja": "Xousのサインは終了しました。ご都合の良い時に再起動してください。",
+        "ja": "Xousのサインは終了しました。都合の良い時に再起動してください。",
         "zh": "更新完成重启应用",
         "en-tts": "Xous signing finished. Reboot at your earliest convenience."
     },
     "rootkeys.get_login_password": {
         "en": "Password request\nEnter the 'DEVICE UNLOCK' PIN code.",
-        "ja": "パスワード要求\nデバイスのロック解除のPINコードを入力してください。",
+        "ja": "パスワード要求\nデバイスロック解除のPINコードを入力してください。",
         "zh": "输入密码 解锁 安全含义:低",
         "en-tts": "Enter device unlock password to access basic service."
     },

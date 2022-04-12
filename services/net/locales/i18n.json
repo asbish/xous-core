@@ -7,7 +7,7 @@
     },
     "net.ec_current_rev": {
         "en": "Current EC rev: ",
-        "ja": "現在のEC rev: ",
+        "ja": "現在の EC rev: ",
         "zh": "当前的 EC 修订版: ",
         "en-tts": "Current EC rev: "
     }
