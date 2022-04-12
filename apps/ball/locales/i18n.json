@@ -1,7 +1,7 @@
 {
     "ballapp.notification_a": {
         "en": "Bouncing ball ⛹ demo.\nInterrupted with key hit: ",
-        "ja": "弾むボール ⛹ デモ。キーヒットで中断: ",
+        "ja": "弾むボールデモ ⛹ \nキーヒットで中断: ",
         "zh": "弹跳球演示.⛹\n因击键而中断:",
         "en-tts": "Bouncing ball demo. Interrupted with key hit:"
     },
@@ -25,7 +25,7 @@
     },
     "ballapp.tilt": {
         "en": "Tilt",
-        "ja": "傾き",
+        "ja": "チルト",
         "zh": "加速度计倾斜",
         "en-tts": "Tilt"
     }

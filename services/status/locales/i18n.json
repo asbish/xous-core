@@ -13,13 +13,13 @@
     },
     "stats.uptime": {
         "translator-note": "This needs to be a very short string, 2 chars max. Trailing space is necessary for English due to proportional font.",
-        "ja": "稼働",
+        "ja": "Up ",
         "en": "Up ",
         "zh": "运行",
         "en-tts": "Up"
     },
     "stats.set_time": {
-        "ja": "設定時間",
+        "ja": "設定時間 TODO",
         "en": "Set Time",
         "zh": "设置时间",
         "en-tts": "Set Time"
@@ -98,13 +98,13 @@
     },
     "mainmenu.provision_gateware": {
         "en": "Install gateware update",
-        "ja": "ゲートウェアのアップデートをインストール",
+        "ja": "ゲートウェアアップデート",
         "zh": "安装比特流更新",
         "en-tts": "Install gateware update"
     },
     "mainmenu.selfsign": {
         "en": "Sign Xous update",
-        "ja": "サインXousアップデートTODO",
+        "ja": "Xousアップデートに署名",
         "zh": "数字签名Xous",
         "en-tts": "Sign Xous update"
     },
